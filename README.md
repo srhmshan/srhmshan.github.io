@@ -1,25 +1,14 @@
 ## 💗Greetings! My name is Shaniah Rose Hope M. Sumaoang ✧ 🫧
 ### I am a **3rd Year Computer Engineering Student** at Technological Institute of the Philippines ✨
 
-![img](https://pasteboard.co/ILLEJWaPmBos.png)
+[!img](https://pasteboard.co/ILLEJWaPmBos.png)
   
 
-These projects serve as a repository for my codes and insights, forming the foundation for my aspirations as a future Computer Engineer and System Administrator. Through applications, I have implemented both software and hardware systems in projects, combining theoretical understanding with hands on experience. This combination highlights my commitment to improving my skills in system administration. As I continue on my technology learning journey, this collection becomes a resource that gives me an advantage, in tackling future challenges and adapting to the ever changing landscape of technological advancements.
+These repositories include my codes and insights, forming the foundation for my aspirations as a future Computer Engineer and System Administrator. Through applications, I have implemented both software and hardware systems in projects, combining theoretical understanding with hands-on experience. This combination highlights my commitment to improving my skills in system administration. As I continue on my technology learning journey, this collection becomes a resource that gives me an advantage, in tackling future challenges and adapting to the ever-changing landscape of technological advancements.
 
 - 🧁 I’m currently learning **Managing Enterprise Servers & CCNA: Switching, Routing, and Wireless Essentials (SRWE)** 
 - 💌 How to reach me: qsrhmsumaoang@tip.edu.ph
-
-
-![](https://komarev.com/ghpvc/?username=srhmshan&style=for-the-badge)
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/srhmshan)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/su.shroom)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/srhmshan/)  
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srhmshan)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=srhmshan&show_icons=true)  
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=srhmshan)  
+ 
 
 ## Project Compilation
 
