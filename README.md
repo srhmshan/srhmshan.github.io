@@ -1,8 +1,8 @@
 ## 💗Greetings! I'm Shaniah and this is my Portfolio ✧ 🫧
 ### I am a **3rd Year Computer Engineering Student** at Technological Institute of the Philippines ✨
 
-[![img](https://pasteboard.co/ILLEJWaPmBos.png)](https://postimg.cc/yJC23Dgc)
-  
+[![desktop.png](https://i.postimg.cc/CKR0tDwP/desktop.png)](https://postimg.cc/yJC23Dgc)
+
 ## Click here for the [live view](https://andreafaith.github.io/)
 ________________________________________________________________________________________
 
