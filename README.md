@@ -1,5 +1,5 @@
 ## 💗 Hello World! I am Shaniah and this is my Final Project for CPE 232 - Managing Enterprise Servers ✧ 🫧
-#### I am currently a **3rd Year Computer Engineering Student** at Technological Institute of the Philippines (QC) ✨
+#### I am a **3rd Year Computer Engineering Student** at Technological Institute of the Philippines (QC) ✨
 
 [![COVER.png](https://i.postimg.cc/WpkKdVNH/COVER.png)](https://postimg.cc/bdqL5K2x)
 
