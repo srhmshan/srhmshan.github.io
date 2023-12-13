@@ -2,9 +2,6 @@
 
 
 
-/**
- * add event listener on multiple elements
- */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -14,10 +11,6 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
-/**
- * PRELOADER
- */
-
 const preloader = document.querySelector("[data-preloader]");
 
 window.addEventListener("DOMContentLoaded", function () {
@@ -26,10 +19,6 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
-/**
- * HEADER
- * header active when window scroll down to 100px
- */
 
 const header = document.querySelector("[data-header]");
 
@@ -43,9 +32,7 @@ window.addEventListener("scroll", function () {
 
 
 
-/**
- * SLIDER
- */
+
 
 const sliders = document.querySelectorAll("[data-slider]");
 
@@ -64,9 +51,7 @@ const initSlider = function (currentSlider) {
     sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
   }
 
-  /**
-   * NEXT SLIDE
-   */
+
   const slideNext = function () {
     const slideEnd = currentSlidePos >= totalSlidableItems;
 
@@ -81,9 +66,7 @@ const initSlider = function (currentSlider) {
 
   sliderNextBtn.addEventListener("click", slideNext);
 
-  /**
-   * PREVIOUS SLIDE
-   */
+
   const slidePrev = function () {
     if (currentSlidePos <= 0) {
       currentSlidePos = totalSlidableItems;
@@ -102,18 +85,14 @@ const initSlider = function (currentSlider) {
     sliderPrevBtn.style.display = 'none';
   }
 
-  /**
-   * slide with [shift + mouse wheel]
-   */
+
 
   currentSlider.addEventListener("wheel", function (event) {
     if (event.shiftKey && event.deltaY > 0) slideNext();
     if (event.shiftKey && event.deltaY < 0) slidePrev();
   });
 
-  /**
-   * RESPONSIVE
-   */
+
 
   window.addEventListener("resize", function () {
     totalSliderVisibleItems = Number(getComputedStyle(currentSlider).getPropertyValue("--slider-items"));
