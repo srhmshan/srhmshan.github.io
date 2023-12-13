@@ -1,24 +1,5 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
-  /**
-   * colors
-   */
 
   --raisin-black: hsla(231, 10%, 14%, 1);
   --roman-silver: hsla(229, 10%, 57%, 1);
@@ -28,9 +9,6 @@
   --white_a10: hsla(0, 0%, 100%, 0.1);
   --white_a5: hsla(0, 0%, 100%, 0.05);
 
-  /**
-   * typography
-   */
 
   --ff-syne: 'Syne', sans-serif;
 
@@ -46,23 +24,17 @@
   --fw-800: 800;
   --fw-700: 700;
 
-  /**
-   * spacing
-   */
+
 
   --section-padding: 100px;
 
-  /**
-   * border radius
-   */
+
 
   --radius-pill: 100px;
   --radius-circle: 50%;
   --blob-radius: 52% 48% 59% 41% / 53% 40% 60% 47%;
 
-  /**
-   * transition
-   */
+
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
@@ -75,11 +47,6 @@
 
 
 
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
@@ -143,11 +110,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-
-
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
 
 .container { padding-inline: 12px; }
 
@@ -317,11 +279,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-
-/*-----------------------------------*\
-  #PRELOADER
-\*-----------------------------------*/
-
 .preloader {
   position: fixed;
   top: 0;
@@ -362,10 +319,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
-
 .header {
   position: fixed;
   top: 0;
@@ -389,9 +342,8 @@ body.nav-active { overflow: hidden; }
 }
 
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+
+
 
 .hero { padding-block-start: 130px; }
 
@@ -446,9 +398,8 @@ body.nav-active { overflow: hidden; }
 .hero .btn { margin-inline: auto; }
 
 
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
+
+
 
 .portfolio .slider { --item-gap: 16px; }
 
@@ -487,11 +438,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
 .footer {
   background-color: var(--raisin-black);
   padding-block: 70px;
@@ -525,14 +471,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
-
-/**
- * responsive for large than 575px screen
- */
-
 @media (min-width: 575px) {
 
   /**
@@ -551,10 +489,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * FOOTER
-   */
-
   .footer-list-title { margin-block-end: 8px; }
 
 }
@@ -562,9 +496,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 768px screen
- */
 
 @media (min-width: 768px) {
 
@@ -585,9 +516,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 720px; }
 
@@ -601,10 +529,6 @@ body.nav-active { overflow: hidden; }
   .title-wrapper .section-text { margin-block-start: 40px; }
 
 
-
-  /**
-   * HERO
-   */
 
   .hero .container { position: relative; }
 
@@ -630,9 +554,6 @@ body.nav-active { overflow: hidden; }
 
 
 
-  /**
-   * FOOTER
-   */
 
   .footer .container { grid-template-columns: repeat(3, 1fr); }
 
@@ -642,29 +563,20 @@ body.nav-active { overflow: hidden; }
 
 
 
-/**
- * responsive for large than 992px screen
- */
 
 @media (min-width: 992px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
   :root {
 
-    /**
-     * typography
-     */
+
 
     --fs-3: 7rem;
 
   }
 
 
-  /**
-   * REUSED STYLE
-   */
+
   .container {
     max-width: 960px;
   }
@@ -678,44 +590,31 @@ body.nav-active { overflow: hidden; }
   }
 
 
-  /**
-   * HERO
-   */
+
   .hero-subtitle {
     --fs-8: 1.4rem;
   }
 
 
-  /**
-   * responsive for large than 1200px screen
-   */
+
   @media (min-width: 1200px) {
 
-    /**
-     * CUSTOM PROPERTY
-     */
+
     :root {
 
-      /**
-       * spacing
-       */
 
       --section-padding: 140px;
 
     }
 
 
-    /**
-     * REUSED STYLE
-     */
+
     .container {
       max-width: 1140px;
     }
 
 
-    /**
-     * HEADER
-     */
+
     .navbar {
       top: 0;
       display: grid;
@@ -732,9 +631,7 @@ body.nav-active { overflow: hidden; }
     }
 
 
-    /**
-     * HERO
-     */
+
     .hero-content {
       width: 55%;
     }
