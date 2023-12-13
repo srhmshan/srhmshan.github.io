@@ -9,7 +9,7 @@ ________________________________________________________________________________
 These repositories include my codes and insights, forming the foundation for my aspirations as a future Computer Engineer and System Administrator. Through applications, I have implemented both software and hardware systems in projects, combining theoretical understanding with hands-on experience. This combination highlights my commitment to improving my skills in system administration. As I continue on my technology learning journey, this collection becomes a resource that gives me an advantage, in tackling future challenges and adapting to the ever-changing landscape of technological advancements.
 
 
-- 🧁 I’m currently learning **Managing Enterprise Servers & CCNA: Switching, Routing, and Wireless Essentials (SRWE)** 
+- 🧁 I’m currently learning **Managing Enterprise Servers** 
 - 💌 How to reach me: qsrhmsumaoang@tip.edu.ph
 
 
